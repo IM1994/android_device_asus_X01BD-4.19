@@ -30,3 +30,8 @@ include vendor/asus/X01BD/BoardConfigVendor.mk
 
 # selinux neverallow
 SELINUX_IGNORE_NEVERALLOWS := true
+
+# ovveriding
+BUILD_BROKEN_DUP_RULES := true
+
+BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
